@@ -14,7 +14,7 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 If Composer is installed globally, run
 ```bash
-composer create-project --prefer-dist cakephp/app [app_name]
+composer create-project --prefer-dist andrecavallari/cake3-skeleton [app_name]
 ```
 
 You should now be able to visit the path to where you installed the app and see
@@ -22,5 +22,5 @@ the setup traffic lights.
 
 ## Configuration
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+You should edit the configuration for each environment (development and production)
+You can create your own environment by copying the development or production  and

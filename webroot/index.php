@@ -1,4 +1,10 @@
 <?php
+/*
+ * Define the configuration mode to use
+ * The default´s are development and production
+ * Any other can be created by copy from another one
+ */
+define('CAKE_ENVIRONMENT', 'development');
 /**
  * The Front Controller for handling every request
  *
