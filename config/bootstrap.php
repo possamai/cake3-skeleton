@@ -64,6 +64,7 @@ use Cake\Utility\Security;
  */
 try {
     Configure::config('default', new PhpConfig());
+    Configure::load('app', 'default', false);
     Configure::load(CAKE_ENVIRONMENT.'/app', 'default', false);
     Configure::load(CAKE_ENVIRONMENT.'/datasources', 'default', false);
     Configure::load(CAKE_ENVIRONMENT.'/email', 'default', false);
