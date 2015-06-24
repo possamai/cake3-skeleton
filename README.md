@@ -34,6 +34,7 @@ define('CAKE_ENVIRONMENT', 'development');
 ```
 to
 ``` PHP
+//The name of configuration must be the same name of the config directory
 define('CAKE_ENVIRONMENT', 'mycustonconfig');
 ```
 
